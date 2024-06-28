@@ -13,6 +13,8 @@
 		9455351C2C2ECD5D00C99A45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9455351B2C2ECD5D00C99A45 /* Preview Assets.xcassets */; };
 		9455351E2C2ECD5D00C99A45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455351D2C2ECD5D00C99A45 /* Persistence.swift */; };
 		945535212C2ECD5D00C99A45 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9455351F2C2ECD5D00C99A45 /* CoreDataProject.xcdatamodeld */; };
+		945535292C2ECECC00C99A45 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945535272C2ECECC00C99A45 /* Movie+CoreDataClass.swift */; };
+		9455352A2C2ECECC00C99A45 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945535282C2ECECC00C99A45 /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		9455351B2C2ECD5D00C99A45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9455351D2C2ECD5D00C99A45 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		945535202C2ECD5D00C99A45 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		945535272C2ECECC00C99A45 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		945535282C2ECECC00C99A45 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		945535132C2ECD5C00C99A45 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				945535272C2ECECC00C99A45 /* Movie+CoreDataClass.swift */,
+				945535282C2ECECC00C99A45 /* Movie+CoreDataProperties.swift */,
 				945535142C2ECD5C00C99A45 /* CoreDataProjectApp.swift */,
 				945535162C2ECD5C00C99A45 /* ContentView.swift */,
 				945535182C2ECD5D00C99A45 /* Assets.xcassets */,
@@ -146,6 +152,8 @@
 				9455351E2C2ECD5D00C99A45 /* Persistence.swift in Sources */,
 				945535172C2ECD5C00C99A45 /* ContentView.swift in Sources */,
 				945535212C2ECD5D00C99A45 /* CoreDataProject.xcdatamodeld in Sources */,
+				945535292C2ECECC00C99A45 /* Movie+CoreDataClass.swift in Sources */,
+				9455352A2C2ECECC00C99A45 /* Movie+CoreDataProperties.swift in Sources */,
 				945535152C2ECD5C00C99A45 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
